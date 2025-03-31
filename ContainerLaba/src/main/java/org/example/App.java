@@ -5,9 +5,8 @@ package org.example;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("test");
         Container c = new Container();
-
+        c.add(12);
+        System.out.println(c.get(0));
     }
 }
