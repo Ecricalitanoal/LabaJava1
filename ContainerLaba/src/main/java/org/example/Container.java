@@ -8,7 +8,9 @@ package org.example;
  */
 public class Container {
 
-    /** Начальная размерность контейнера */
+    /**
+     * Начальная размерность контейнера
+     */
     private static final int INIT_SIZE = 10;
 
     private int[] items;
