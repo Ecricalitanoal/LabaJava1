@@ -3,19 +3,21 @@ package org.example;
 import java.util.Scanner;
 
 
+/**
+ * Класс для демонстрации работы класса контейнера Container через консольное меню
+ * Позволяет получать, удалять, добавлять элементы контейнера, а также очищать его
+ */
 public class App {
 
-
+    /**
+     * Точка входа в программу
+     * @param args аргументы командной строки
+     */
     public static void main(String[] args) {
-
         Container container = new Container();
-
         Scanner cin = new Scanner(System.in);
-
         boolean flag = true;
-
         int whatToDo;
-
         int number, index;
 
         while (flag) {
